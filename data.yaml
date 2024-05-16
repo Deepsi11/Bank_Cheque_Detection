@@ -1,0 +1,11 @@
+train: data images/train
+val: data images/test
+nc: 7
+names: ['IssueBank',
+        'ReceiverName', 
+        'AccountNo', 
+        'ChequeNo.', 
+        'DateIssue', 
+        'Ammount', 
+        'Sign'
+]
